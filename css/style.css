@@ -54,15 +54,94 @@ h3 {
   }
 
   [class*='col-'] p {
-    font-size: 19px;
+    font-size: 22px;
+    color: grey;
+  }
+
+  [class*='col-'] h3 {
+    font-size: 25px;
+  }
+
+  img {
+    height: 150px;
+  }
+
+  h2 {
+    font-size: 50px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  }
+
+  #lezioni {
+    color: red;
+  }
+
+  #step {
+    color: blue;
+  }
+
+  #prc-cademi {
+    color: green;
+  }
+
+  .mrg-top {
+    -webkit-box-shadow: 0 0 10px 1px lightgrey;
+    -moz-box-shadow: 0 0 10px 1px lightgrey;
+    box-shadow: 0 0 10px 1px lightgrey;
+  }
+
+  .mrg-top-md {
+    margin-top: 0;
+  }
+}
+/* / 768px-991: tablet */
+
+/* < 767px: smartphone */
+@media screen and (max-width: 991px) {
+
+  img {
+    height: 110px;
+  }
+
+  [class*='col-'] {
+    padding: 20px 50px 15px 50px;
+  }
+
+  [class*='col-'] p {
+    font-size: 18px;
+    color: grey;
   }
 
   [class*='col-'] h3 {
     font-size: 22px;
   }
 
-  img {
-    height: 150px;
+  h2 {
+    font-size: 40px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
   }
+
+  #lezioni {
+    color: red;
+  }
+
+  #step {
+    color: blue;
+  }
+
+  #prc-cademi {
+    color: green;
+  }
+
+  .mrg-top {
+    -webkit-box-shadow: 0 0 10px 1px lightgrey;
+    -moz-box-shadow: 0 0 10px 1px lightgrey;
+    box-shadow: 0 0 10px 1px lightgrey;
+  }
+
+  .mrg-top-md {
+    margin-top: 0;
+  }
+
 }
-/* / 768px-991: tablet */
+
+/* / < 767px: smartphone */
