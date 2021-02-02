@@ -46,6 +46,7 @@ h3 {
 /* /sezione-cademi */
 
 /* responsive */
+/* 768px-991: tablet */
 @media screen and (min-width: 768px) and (max-width: 991px) {
 
   [class*='col-'] {
@@ -59,4 +60,9 @@ h3 {
   [class*='col-'] h3 {
     font-size: 22px;
   }
+
+  img {
+    height: 150px;
+  }
 }
+/* / 768px-991: tablet */
