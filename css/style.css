@@ -1,3 +1,23 @@
+/* generali */
 main {
   padding-top: 70px;
+}
+
+img {
+  height: 200px;
+}
+
+h2 {
+  font-size: 35px;
+  font-weight: bold;
+  padding: 20px 0 40px 0;
+}
+
+h3 {
+  padding: 40px 0 20px 0;
+}
+
+[class*='col-'] {
+  text-align: center;
+  padding: 0 20px;
 }
