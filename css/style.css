@@ -10,7 +10,7 @@ img {
 h2 {
   font-size: 35px;
   font-weight: bold;
-  padding: 20px 0 40px 0;
+  padding: 20px 0 20px 0;
 }
 
 h3 {
@@ -25,7 +25,7 @@ h3 {
 /* colonne */
 [class*='col-'] {
   text-align: center;
-  padding: 0 25px 15px 25px;
+  padding: 20px 25px 15px 25px;
 }
 /* /colonne */
 
@@ -44,3 +44,19 @@ h3 {
   margin-bottom: 20px;
 }
 /* /sezione-cademi */
+
+/* responsive */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+  [class*='col-'] {
+    margin-top: 20px;
+  }
+
+  [class*='col-'] p {
+    font-size: 19px;
+  }
+
+  [class*='col-'] h3 {
+    font-size: 22px;
+  }
+}
